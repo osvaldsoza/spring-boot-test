@@ -18,7 +18,7 @@ services:
       timeout: 3s
       retries: 20
   app-spring:
-   image: ${IMAGE}
+   image: soza77/spring-boot-test
    build: .
    # working_dir: /spring-boot-test
    environment:
